@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prodevopz Pickaxe Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="branding">🔨 Prodevopz Pickaxe Game 🔨</div>
+
+  <div id="configForm">
+    <input type="text" id="apiKey" placeholder="Enter YouTube API Key" />
+    <input type="text" id="channelId" placeholder="Enter Channel ID" />
+    <input type="text" id="streamId" placeholder="Enter Stream ID" />
+    <button onclick="startGame()">Start Game</button>
+  </div>
+
+  <canvas id="gameCanvas" width="480" height="640"></canvas>
+
+  <script src="game.js"></script>
+  <script src="youtube.js"></script>
+</body>
+</html>
